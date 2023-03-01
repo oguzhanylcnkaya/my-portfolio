@@ -4,8 +4,8 @@
     <div class="images">
       <img
         src="../assets/images/oguzhanyalcinkaya.jpg"
-        width="200px"
-        height="200px"
+        width="200"
+        height="200"
         alt="Me"
       />
     </div>

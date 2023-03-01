@@ -2,6 +2,8 @@ import { createStore } from 'vuex'
 import headerModule from './HeaderModule'
 import carouselModule from './CarouselModule'
 import abilityModule from './AbilityModule'
+import experienceyModule from './ExperienceModule'
+import projectsModule from './ProjectsModule'
 
 export default createStore({
   state: {
@@ -15,6 +17,8 @@ export default createStore({
   modules: {
     headerModule,
     carouselModule,
-    abilityModule
+    abilityModule,
+    experienceyModule,
+    projectsModule
   }
 })
