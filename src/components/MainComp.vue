@@ -1,5 +1,6 @@
 <template>
   <div id="main">
+    <SelectLanguage class="language-option" />
     <div
       id="carouselExampleIndicators"
       class="carousel slide carousel-fade"
@@ -100,10 +101,14 @@
 
 <script>
 import { mapGetters } from "vuex";
+import SelectLanguage from './SelectLanguage.vue';
 export default {
   computed: {
     ...mapGetters(["getCarousel"]),
   },
+  components : {
+    SelectLanguage
+  }
 };
 </script>
 
@@ -113,5 +118,12 @@ export default {
 }
 .secondImg {
   background-image: url("../assets/images/slider2.jpg");
+}
+
+.language-option{
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  z-index: 99;
 }
 </style>
