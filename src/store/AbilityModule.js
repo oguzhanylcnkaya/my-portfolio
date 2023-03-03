@@ -1,3 +1,5 @@
+import i18n from '../i18n.js'
+
 const abilityModule = {
     state: () => ({
         abilities: [
@@ -47,11 +49,21 @@ const abilityModule = {
                 name: 'Wordpress',
                 percent: '50'
             },
-        ]
+        ],
+        abilityDescription : i18n.global.t('abilityDescription'),
     }),
     getters: {
         getAbility(state) {
             return state.abilities
+        },
+        getAbilityDescription(state){
+            return state.abilityDescription
+        }
+    },
+    mutations : {
+        changeLocale(state){
+            state.abilityDescription = i18n.global.t("abilityDescription");
+
         }
     }
 }

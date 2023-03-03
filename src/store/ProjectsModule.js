@@ -7,74 +7,74 @@ const projectsModule = {
                         src : require("@/assets/images/RecapProject/anasayfa2.png")
                     },
                     {
-                        src : "../assets/images/RecapProject/anasayfa3.png"
+                        src : require("@/assets/images/RecapProject//anasayfa3.png")
                     },
                     {
-                        src : "../assets/images/RecapProject/giris.png"
+                        src : require("@/assets/images/RecapProject//giris.png")
                     },
                     {
-                        src : "images/RecapProject/kaydol.png"
+                        src : require("@/assets/images/RecapProject/kaydol.png")
                     },
 
                     {
-                        src : "../assets/images/RecapProject/arabaekle.png"
+                        src : require("@/assets/images/RecapProject//arabaekle.png")
                     },
                     {
-                        src : "images/RecapProject/aracguncelle.png"
+                        src : require("@/assets/images/RecapProject/aracguncelle.png")
                     },
                     {
-                        src : "../assets/images/RecapProject/araclar.png"
+                        src : require("@/assets/images/RecapProject//araclar.png")
                     },
                     {
-                        src : "images/RecapProject/detay.png"
+                        src : require("@/assets/images/RecapProject/detay.png")
                     },
                     {
-                        src : "../assets/images/RecapProject/kiralama.png"
+                        src : require("@/assets/images/RecapProject//kiralama.png")
                     },
                     {
-                        src : "images/RecapProject/kullaniciduzenle.png"
+                        src : require("@/assets/images/RecapProject/kullaniciduzenle.png")
                     },
                     {
-                        src : "../assets/images/RecapProject/kullanicirolekle.png"
+                        src : require("@/assets/images/RecapProject//kullanicirolekle.png")
                     },
                     {
-                        src : "images/RecapProject/kullanicirolguncelle.png"
+                        src : require("@/assets/images/RecapProject/kullanicirolguncelle.png")
                     },
                     {
-                        src : "../assets/images/RecapProject/kullaniciroller.png"
+                        src : require("@/assets/images/RecapProject//kullaniciroller.png")
                     },
                     {
-                        src : "images/RecapProject/markaekle.png"
+                        src : require("@/assets/images/RecapProject/markaekle.png")
                     },
                     {
-                        src : "../assets/images/RecapProject/markaguncelle.png"
+                        src : require("@/assets/images/RecapProject//markaguncelle.png")
                     },
                     {
-                        src : "images/RecapProject/markalar.png"
+                        src : require("@/assets/images/RecapProject/markalar.png")
                     },
                     {
-                        src : "../assets/images/RecapProject/odeme.png"
+                        src : require("@/assets/images/RecapProject//odeme.png")
                     },
                     {
-                        src : "images/RecapProject/renkekle.png"
+                        src : require("@/assets/images/RecapProject/renkekle.png")
                     },
                     {
-                        src : "../assets/images/RecapProject/renkguncelle.png"
+                        src : require("@/assets/images/RecapProject//renkguncelle.png")
                     },
                     {
-                        src : "images/RecapProject/renkler.png"
+                        src : require("@/assets/images/RecapProject/renkler.png")
                     },
                     {
-                        src : "../assets/images/RecapProject/rolekle.png"
+                        src : require("@/assets/images/RecapProject//rolekle.png")
                     },
                     {
-                        src : "images/RecapProject/rolguncelle.png"
+                        src : require("@/assets/images/RecapProject/rolguncelle.png")
                     },
                     {
-                        src : "../assets/images/RecapProject/roller.png"
+                        src : require("@/assets/images/RecapProject//roller.png")
                     },
                     {
-                        src : "images/RecapProject/sepet.png"
+                        src : require("@/assets/images/RecapProject/sepet.png")
                     },
                 ],
                 projectName : "ozyRent a Car Projesi (Frontend)",

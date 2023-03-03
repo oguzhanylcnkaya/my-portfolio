@@ -4,21 +4,20 @@ const carouselModule = {
     state: () => ({
         carousels : [
             {
-                class : 'carousel-item active firstImg',
+                src : require("@/assets/images/raja-sen-8AibBzwWpV4-unsplash.jpg"),
                 name : "Oğuzhan",
                 surname : "Yalçınkaya",
                 mail : "Oguzhanyalcinkaya@gmail.com",
-                text : i18n.global.t('carouselExplanationFirst')
+                carouselTextFirst : i18n.global.t('carouselFirstTextFirst'),
+                carouselTextSecond : i18n.global.t('carouselFirstTextSecond'),
             },
             {
-                class : "carousel-item secondImg",
+                src : require("@/assets/images/slider2.jpg"),
                 name : "Oğuzhan",
                 surname : "Yalçınkaya",
                 mail : "Oguzhanyalcinkaya@gmail.com",
-                text : `Azimli, Hırslı ve Sakar bir yazılımcıyım :) <br />
-                Kendimi kısaca; kendini geliştiren, yeni şeyler öğrenmekten
-                korkmayan, hayata pozitif bakmaya çalışan birisi olarak
-                nitelendirebilirim.`
+                carouselTextFirst : i18n.global.t('carouselSecondTextFirst'),
+                carouselTextSecond : i18n.global.t('carouselSecondTextSecond'),
             }
 
         ]
@@ -30,7 +29,10 @@ const carouselModule = {
     },
     mutations : {
         changeLocale(state){
-            state.carousels[0].text = i18n.global.t("carouselExplanationFirst");
+            state.carousels[0].carouselTextFirst = i18n.global.t("carouselFirstTextFirst");
+            state.carousels[0].carouselTextSecond = i18n.global.t("carouselFirstTextSecond");
+            state.carousels[1].carouselTextFirst = i18n.global.t("carouselSecondTextFirst");
+            state.carousels[1].carouselTextSecond = i18n.global.t("carouselSecondTextSecond");
         }
     }
 }

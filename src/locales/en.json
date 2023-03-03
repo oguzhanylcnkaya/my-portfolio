@@ -1,3 +1,10 @@
 {
-  "carouselExplanationFirst": "Azimli, Hırslı ve Sakar bir yazılımcıyım :) Kendimi kısaca; kendini geliştiren, yeni şeyler öğrenmekten korkmayan, hayata pozitif bakmaya çalışan birisi olarak nitelendirebilirim."
+  "carouselFirstTextFirst": "I am a determined, ambitious and clumsy software developer :)",
+  "carouselFirstTextSecond": "Myself briefly; I can describe him as a person who develops himself, is not afraid of learning new things, and tries to have a positive outlook on life.",
+  "carouselSecondTextFirst": "I am a determined, ambitious and clumsy software developer :)",
+  "carouselSecondTextSecond": "Myself briefly; I can describe him as a person who develops himself, is not afraid of learning new things, and tries to have a positive outlook on life.",
+  "aboutMe": "ABOUT ME",
+  "whoAmI": "WHO AM I?",
+  "mySkills": "My Skills",
+  "abilityDescription": "Let me briefly introduce myself to you. My name is Oğuzhan, I was born on 30 July 1997 in Denizli. I graduated from Sakarya University, Department of Management Information Systems in 2020. I am currently continuing my career as a Software Developer. During my internship, which is my first experience in software, I took part in the part we call Backend. After graduation, I had my first work experience as a Frontend Developer. I am currently working in both areas (mainly Frontend Developer). My goal; I can say that by entering the field of mobile, gaining new information, improving myself in the technologies I know and doing a Master in education."
 }

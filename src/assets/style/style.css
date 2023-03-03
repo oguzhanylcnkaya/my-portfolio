@@ -585,6 +585,8 @@ body{
     letter-spacing: 1px;
     line-height: 1.9em;
     font-family: "Roboto-Mono";
+    display: flex;
+    flex-direction: column;
 }
 
 /* ----------------------------------------

@@ -1,3 +1,10 @@
 {
-    "carouselExplanationFirst": "sdfsdffsdsdf"
+    "carouselFirstTextFirst": "Azimli, Hırslı ve Sakar bir yazılımcıyım :)",
+    "carouselFirstTextSecond": "Kendimi kısaca; kendini geliştiren, yeni şeyler öğrenmekten korkmayan, hayata pozitif bakmaya çalışan birisi olarak nitelendirebilirim.",
+    "carouselSecondTextFirst" : "Azimli, Hırslı ve Sakar bir yazılımcıyım :)",
+    "carouselSecondTextSecond" : "Kendimi kısaca; kendini geliştiren, yeni şeyler öğrenmekten korkmayan, hayata pozitif bakmaya çalışan birisi olarak nitelendirebilirim.",
+    "aboutMe" : "BENİM HAKKIMDA",
+    "whoAmI" : "Ben KİMİM?",
+    "mySkills" : "Yeteneklerim",
+    "abilityDescription": "Size kısaca kendimi takdim edeyim. Adım Oğuzhan, 30 Temmuz 1997 Denizli doğumluyum. Sakarya Üniversitesi Yönetim Bilişim Sistemleri bölümünden 2020 yılında mezun oldum. Kariyerime şuan da Software Developer olarak devam ediyorum. Yazılım alanında ilk deneyimim olan staj süresince Backend dediğimiz kısımda görev aldım. Mezun olduktan sonra ise ilk iş deneyimimi Frontend Developer olarak gerçekleştirdim. Şuan da her iki alanda da (ağırlıklı olarak Frontend Developer) çalışıyorum. Hedefim; mobil alanına girip yeni bilgiler edinmek, bildiğim teknolojiler de kendimi geliştirmek ve eğitim anlamında Master yapmak diyebilirim."
 }
