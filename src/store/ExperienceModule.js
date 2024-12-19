@@ -1,46 +1,57 @@
+import i18n from '../i18n.js'
+
 const experienceyModule = {
     state: () => ({
         experiences: [
             {
+                workName: 'Frontend Developer',
+                startDate: `${i18n.global.t('march')} 2023`,
+                endDate: `${i18n.global.t('december')} 2024`,
+                companyName: "Atlastek Teknoloji Bilişim ve İnovasyon A.Ş. ",
+                comment: i18n.global.t('atlastekComment')
+            },
+            {
                 workName: 'Software Engineer',
-                startDate: 'Kasım 2021',
-                endDate: "Şubat 2023",
+                startDate: `${i18n.global.t('november')} 2021`,
+                endDate: `${i18n.global.t('march')} 2023`,
                 companyName: "Huawei",
-                comment: `2021 yılının Kasım ayında çalışmaya başladığım ve halen devam
-                ettiğim Huawei firmasında Appcube takımında Software Engineer olarak
-                çalışmaktayım. Hem Huawei için hem de dışarıdan alınan projelerde
-                geliştirmeler yapmaktayım. Çoğunlukla Html, Css, Scss, Javascript,
-                Typescript, Vue.Js teknolojilerini kullanmaktayım.`
+                comment: i18n.global.t('huaweiComment')
             },
             {
                 workName: 'Frontend Developer',
-                startDate: 'Ekim 2020',
-                endDate: "Kasım 2021",
+                startDate: `${i18n.global.t('october')} 2020`,
+                endDate: `${i18n.global.t('november')} 2021`,
                 companyName: "Desecure Özel Güvenlik",
-                comment: `Mezun olduktan sonra girdiğim ve yaklaşık olarak 1 yıl çalıştığım
-                Desecure Özel Güvenlik firmasında genel olarak Frontend Developer
-                olarak görev aldım. Genel olarak Html, Css, Javascript, Vue.JS,
-                Gulp.js, Nunjucks, Wordpress teknolojilerini kullandım. Çoğunlukla
-                site oluşturma, mevcut tasarımı koda dökme, SPA projeler üzerinde
-                çalıştım.`
+                comment: i18n.global.t('desecureComment')
             },
             {
                 workName: 'Backend Developer',
-                startDate: 'Kasım 2019',
-                endDate: "Nisan 2020",
+                startDate: `${i18n.global.t('november')} 2019`,
+                endDate: `${i18n.global.t('april')} 2020`,
                 companyName: "Binoplus+",
-                comment: `Yönetim Bilişim Sistemleri bölümümün 7+1'lik stajını, Sakarya
-                Üniversitesi Teknokentinde bulunan Binoplus+ Yazılım Geliştirme
-                Firmasında yaptım. Staj boyunca çoğunlukla web projeleri üzerinde
-                Backend rolünde görev aldım ve Staj boyunca çoğunlukla C#, Asp.Net
-                MVC, Asp.Net Core, Git, MSSQL, Entity Framework teknolojilerini
-                kullandım.`
+                comment: i18n.global.t('binoplusComment')
             }
         ]
     }),
     getters: {
         getExperiences(state) {
             return state.experiences
+        }
+    },
+    mutations: {
+        changeLocale(state) {
+            state.experiences[0].startDate = `${i18n.global.t('march')} 2021`;
+            state.experiences[0].endDate = `${i18n.global.t('december')} 2023`;
+            state.experiences[0].comment = i18n.global.t('atlastekComment');
+            state.experiences[1].startDate = `${i18n.global.t('november')} 2021`;
+            state.experiences[1].endDate = `${i18n.global.t('february')} 2023`;
+            state.experiences[1].comment = i18n.global.t('huaweiComment');
+            state.experiences[2].startDate = `${i18n.global.t('october')} 2020`;
+            state.experiences[2].endDate = `${i18n.global.t('november')} 2021`;
+            state.experiences[2].comment = i18n.global.t('desecureComment');
+            state.experiences[3].startDate = `${i18n.global.t('november')} 2019`;
+            state.experiences[3].endDate = `${i18n.global.t('april')} 2020`;
+            state.experiences[3].comment = i18n.global.t('binoplusComment')
         }
     }
 }

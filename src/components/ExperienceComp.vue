@@ -1,12 +1,9 @@
 <template>
   <div id="experience">
-
-    <!-- <div data-aos="zoom-in" data-aos-duration="2000" class="container-fluid"> -->
-
-    <div class="container-fluid">
+    <div data-aos="zoom-in" data-aos-duration="2000" class="container-fluid">
       <div class="row">
         <div class="col-md-12">
-          <h1 class="experience-name">Deneyimler</h1>
+          <h1 class="experience-name">{{ $t("experiences") }}</h1>
         </div>
       </div>
 
@@ -28,6 +25,8 @@
 </template>
 
 <script>
+import AOS from 'aos'
+ AOS.init();
 import { mapGetters } from 'vuex';
 export default {
     computed : {

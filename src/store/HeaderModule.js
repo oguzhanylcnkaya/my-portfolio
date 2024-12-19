@@ -1,21 +1,23 @@
+import i18n from '../i18n.js'
+
 const headerModule = {
     state: () => ({
         navbarList: [
             {
                 to: "#main",
-                title: "Ana Sayfa"
+                title: i18n.global.t('homePage'),
             },
             {
                 to: "#ability",
-                title: "Hakkımda"
+                title: i18n.global.t('about'),
             },
             {
                 to: "#experience",
-                title: "Deneyimler"
+                title: i18n.global.t('experiences'),
             },
             {
                 to: "#projects",
-                title: "Projeler"
+                title: i18n.global.t('projects'),
             },
         ],
         socialLinks: [
@@ -51,6 +53,22 @@ const headerModule = {
         },
         getSocialLinks(state) {
             return state.socialLinks
+        },
+        getCVLink() {
+            const language = i18n.global.locale._value;
+            if (language == "en") {
+                return "/document/CV-en.pdf";
+            } else {
+                return "/document/CV.pdf";
+            }
+        }
+    },
+    mutations: {
+        changeLocale(state) {
+            state.navbarList[0].title = i18n.global.t("homePage");
+            state.navbarList[1].title = i18n.global.t("about");
+            state.navbarList[2].title = i18n.global.t("experiences");
+            state.navbarList[3].title = i18n.global.t("projects");
         }
     }
 }

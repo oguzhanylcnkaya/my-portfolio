@@ -63,7 +63,6 @@ const abilityModule = {
     mutations : {
         changeLocale(state){
             state.abilityDescription = i18n.global.t("abilityDescription");
-
         }
     }
 }

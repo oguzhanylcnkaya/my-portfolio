@@ -1,11 +1,23 @@
 <template>
   <div id="parallax">
-    <div class="parallax-effect"></div>
+    <div class="parallax-effect">
+      <a :href="cvLink" target="_blank" class="btn btn-yellow"
+        >{{ $t("downloadCV") }}
+        <i class="fas fa-download"></i>
+      </a>
+    </div>
   </div>
 </template>
 
 <script>
-export default {};
+import { mapGetters } from "vuex";
+export default {
+  computed: {
+    ...mapGetters({
+      cvLink: "getCVLink",
+    }),
+  },
+};
 </script>
 
 <style>

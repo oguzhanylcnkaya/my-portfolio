@@ -9,6 +9,7 @@
     "i18n:report": "vue-cli-service i18n:report --src \"./src/**/*.?(js|vue)\" --locales \"./src/locales/**/*.json\""
   },
   "dependencies": {
+    "aos": "^2.3.4",
     "core-js": "^3.8.3",
     "lightbox2": "^2.11.4",
     "vue": "^3.2.13",

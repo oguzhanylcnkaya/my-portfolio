@@ -17,7 +17,7 @@
           </div>
           <div class="col-md-3 col-sm-6 offset-md-1 mt-40">
             <div class="footer-list">
-              <h5>Sayfalar</h5>
+              <h5>{{ $t("pages") }}</h5>
               <ul class="footer-pages">
                 <li v-for="navbar in getNavbarList" :key="navbar">
                   <a :href="navbar.to">{{ navbar.title }}</a>
@@ -27,7 +27,7 @@
           </div>
           <div class="col-md-4 col-sm-6 mt-40">
             <div class="footer-list">
-              <h5>İletişim</h5>
+              <h5>{{ $t("communication") }}</h5>
               <ul class="footer-contact">
                 <li>
                   <i class="fas fa-envelope"></i>
@@ -62,7 +62,7 @@
     <div class="copy-right">
       <div class="container">
         <div class="copy-right-area">
-          <div class="terms-rigth">© {{ getNowYear }} - Tüm Hakları Saklıdır.</div>
+          <div class="terms-rigth">© {{ getNowYear }} - {{ $t("allRights") }}.</div>
           <div>
             <ul class="copy-right-list">
               <li v-for="link in getSocialLinks" :key="link">
